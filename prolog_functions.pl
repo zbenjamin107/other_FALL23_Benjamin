@@ -4,11 +4,11 @@
 
 %1) family relations
 %creating facts
-parent(ron,zach).
-parent(ron,chase).
-parent(herb,ron).
+parent(jack,bob).
+parent(jack,larry).
+parent(herb,jack).
 parent(herb,stu).
-parent(stu,owen).
+parent(stu,dill).
 %creating rules
 grandparent(GP, GC) :- parent(GP, P), parent(P, GC).	%if GP is the parent of the GC parent then true
 sibling(S1,S2) :- parent(P,S1), parent(P,S2), S1\=S2.			%if both ppl have the same parent then true	
