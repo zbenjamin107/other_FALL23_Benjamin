@@ -9,20 +9,8 @@ program will print the verse if it is a valid entry. if not it will complain
 
 #this little guy will take the book,chapter and verse line from bible.txt 
 def print_verse(b,c,l):
-    if len(l) < 77:#if the verse is les than 80 in length then just print it
-        print("{} {}:{}".format(b,c,l))
-    #this next one will print in lines of 80. print character by character
-    else:
-        length = len(b) + len(c)
-        i = length
-        print(b,c,end=": ")
-        for char in l:
-            if i%77 == 0 and i >= 77:
-                print()
-            print(char,end="")
-            i+=1
-            
-        print()#new line for aesthetics
+    print("{} {}:{}".format(b,c,l))
+    
     #======opens file and prints verse to it======
     #f = open("verse.txt","a")
     #f.write("{} {}:{}".format(b,c,l))
