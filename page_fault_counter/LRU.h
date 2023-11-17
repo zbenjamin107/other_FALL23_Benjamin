@@ -1,3 +1,7 @@
+/*
+* @author zachary benjamin
+*/
+
 #ifndef _LRU_H
 #define _LRU_H
 
