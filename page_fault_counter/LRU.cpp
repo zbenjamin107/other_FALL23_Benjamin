@@ -1,3 +1,6 @@
+/*
+* @author zachary benjamin
+*/
 #include "LRU.h"
 
 LRU::LRU(int numPageFrames) : ReplacementAlgorithm(numPageFrames) {
