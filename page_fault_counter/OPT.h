@@ -1,3 +1,7 @@
+/*
+* @author zachary benjamin
+*/
+
 #include <iostream>
 #include "ReplacementAlgorithm.h"
 #include <vector>
