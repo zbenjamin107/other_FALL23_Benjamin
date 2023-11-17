@@ -1,3 +1,6 @@
+/*
+* @author zachary benjamin
+*/
 #include "FIFO.h"
 
 FIFO::FIFO(int numPageFrames) : ReplacementAlgorithm(numPageFrames) {
