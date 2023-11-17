@@ -1,3 +1,7 @@
+/*
+* @author zachary benjamin
+*/
+
 #include "OPT.h"
 
 OPT::OPT(int numberPageFrames) : ReplacementAlgorithm(numberPageFrames) {
